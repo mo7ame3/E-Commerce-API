@@ -4,7 +4,9 @@
   "description": "Welcome to the E-Commerce API! This API is designed to provide developers with a robust, scalable, and secure solution for building and managing online retail platforms. Whether you're creating an e-commerce website, a mobile shopping app, or a marketplace, this API offers all the essential functionalities to power your platform efficiently.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "start:prod": "cross-env NODE_ENV=production nodemon server.js"
   },
   "author": "Mego",
   "license": "ISC",
